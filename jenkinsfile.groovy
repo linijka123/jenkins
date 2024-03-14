@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     // Wywołaj skrypt Pythona, który wstawia dane do SQL Server
-                    sh 'skrypt.py'
+                    sh 'python skrypt.py'
                 }
             }
         }
